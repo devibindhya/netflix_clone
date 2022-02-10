@@ -1,20 +1,20 @@
 import React from "react";
 import "./Banner.css";
+import got from "../../images/got.jpg";
 
 function Banner() {
   console.log("banner");
   return (
     <div className="banner">
       <div className="content">
-        <h1 className="title">Money Heist</h1>
+        <h1 className="title">Game of Thrones</h1>
         <div className="banner_buttons">
           <button className="button">Play</button>
           <button className="button">My list</button>
         </div>
         <h1 className="description">
-          Eight thieves take hostages and lock themselves in the Royal Mint of
-          Spain as a criminal mastermind manipulates the police to carry out his
-          plan.
+          Game of Thrones is set in Westeros, where a battle rages between five
+          noble families..
         </h1>
       </div>
       <div className="fade_bottom"></div>
