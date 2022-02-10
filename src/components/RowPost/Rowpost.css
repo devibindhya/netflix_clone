@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Rowpost() {
+  return (
+    <div>Rowpost</div>
+  )
+}
+
+export default Rowpost
