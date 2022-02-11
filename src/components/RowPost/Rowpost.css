@@ -1,5 +1,6 @@
 .row {
   margin-left: 20px;
+  margin-top: 20px;
   color: #fff;
 }
 .posters {
@@ -14,11 +15,23 @@
 .poster {
   max-height: 250px;
   margin-right: 10px;
+  cursor: pointer;
+}
+.poster:hover {
+  transform: scale(1.1);
 }
 .smallPosters {
   max-height: 150px;
-  max-width: 100px;
-  padding: 20px;
   margin-right: 10px;
   display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+.smallPosters img {
+  max-width: 200px;
+}
+.smallPosters::-webkit-scrollbar {
+  display: none;
 }
