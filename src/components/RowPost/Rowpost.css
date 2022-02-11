@@ -14,5 +14,11 @@
 .poster {
   max-height: 250px;
   margin-right: 10px;
-  max-width: 250px;
+}
+.smallPosters {
+  max-height: 150px;
+  max-width: 100px;
+  padding: 20px;
+  margin-right: 10px;
+  display: flex;
 }
